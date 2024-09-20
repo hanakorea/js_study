@@ -24,3 +24,5 @@ document.querySelector('.btn').addEventListener('click', ()=>{
   }, 5000);
 
 })
+
+console.log('-u 확인용')
