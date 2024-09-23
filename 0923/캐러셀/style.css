@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.carousel{
+  width: 300vw; /*내가 보고 있는 화면의 3배*/
+  transition: all 1s;  /*transition 1초씩 스무스하게 변경 가능*/
+}
+
+.box {
+  width: 100vW;
+  float : left;
+}
+
+.box > img{
+  width: 100%;
+}
+
+#wrapper{
+  overflow: hidden;
+}

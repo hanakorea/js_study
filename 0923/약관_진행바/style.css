@@ -1,0 +1,28 @@
+.container{
+  text-align: center;
+}
+
+.box{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  overflow: scroll;
+}
+
+#chk:disabled + label{
+  color: lightcoral;
+}
+
+body{
+  height: 5000px;
+}
+
+.status-bar{
+  width: 0;
+  height: 5px;
+  background-color: pink;
+  position: fixed;
+  top : 0;
+  
+}
